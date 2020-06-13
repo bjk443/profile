@@ -1,0 +1,107 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: rgba(209, 209, 209, 1.3 );
+	color: rgb(100, 50, 50);
+	font-size: 16px;
+	text-align: center;
+	font-weight: 100; 
+}
+
+p {
+	text-align: center;
+}
+
+h1 {
+	font-family: Garimond, sans-serif;
+	color: #575F7D;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2 {
+	color: #7ECE90;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h3 {
+	font-family: Courier;
+	color: green ;
+	font-size: 25px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.card_background {
+	background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+.container {
+    width: 500px;
+    margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	/* For a screen < 960px, this CSS will be read */
+	.container {
+	  width: 700px;
+	}
+  }
+@media (max-width: 720px) {
+	/* For a screen < 720px, this CSS will be read */
+	.container {
+	  width: 500px;
+	}
+  }
+  @media (max-width: 540px) {
+	/* For a screen < 540px, this CSS will be read */
+	.container {
+	  width: 300px;
+	}
+  }
+
+.btn-blue {
+	background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.list_in_line {
+	list-style: none;
+	padding: 0;
+}
+
+.list_in_line li {
+	display: inline-block;
+}
+
+.social-icon {
+	font-size:32px;
+	color: rgb(220,220,220);
+	margin: 8px 20px;
+}
